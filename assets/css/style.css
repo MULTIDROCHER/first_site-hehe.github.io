@@ -1,0 +1,463 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+input[tape="text"], input[tape="password"], input[tape="search"] {
+	color: 666;
+	width: 60%;
+	padding: 8px;
+	
+}
+
+::placeholder {
+  color: blue;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input, textarea {
+	outline: 1px double 666;
+	background-color: #87CEEB;
+	cursor: help;
+}
+
+h2 {
+	font-size: 140%;
+}
+
+ul {
+	margin: 2px 0 10px 2px;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 7px;
+}
+
+a {
+	cursor: help;
+}
+
+a:hover {
+	color: #79ff0a;
+}
+
+.header {
+	background-color: #0000FF;
+	height: 177px;
+	width: auto;
+	font-size: 0.8em;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+	border: double 4px #79FF0A;
+}
+
+.blink_m {
+  animation: blink 2s infinite;
+}
+
+.blink_griga {
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  51% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.logo {
+	width: 880px;
+	padding-bottom: 0px; 
+}
+
+.logo h1, .logo h2 {
+	font: normal 300% 'century ghotic', arial, sans-serif;
+	margin: 0 0 0 14px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	padding: 22px 0 0 0;
+	color: #FFFF00;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	cursor: help;
+}
+
+.logo_text h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #FFFF00;
+	cursor: help;
+}
+
+.menubar {
+	width: 900px;
+	height: 50px;
+}
+
+ul.menu {
+	float: right;
+}
+
+ul.menu li {
+	float: left;
+	padding: 0 0 0 20px;
+	list-style: none;
+	margin: 45px 2px 0 0;
+	color: #FFFF00;
+}
+
+ul.menu li a {
+	font: normal 100% 'trebuchet ms, sans-serif';
+	display: block;
+	height: 20px;
+	padding 6px 35px 5px 28px;
+	color: #FFFF00;
+	text-decoration: none;
+	cursor: help;
+}
+
+ul.menu li.selected a {
+	color: #140075;
+}
+
+ul.menu li a:hover {
+	color: #79FF0A;
+}
+
+.site_content {
+	width: 1200px;
+	overflow: hidden;
+	margin: 0px auto 0 auto;
+	background-color: #FFFF00;
+	border: double 4px #79FF0A;
+}
+
+.sitebar_container {
+	float: right;
+	width: 220px;
+}
+
+.sitebar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: double 4px #79FF0A;
+	background-color: #4C4CEB;
+}
+
+.search_filed, .login_f, .password_f {
+	border: 4px double #0000FF;
+}
+
+.btn {
+	background-color: #79FF0A;
+	cursor: help;
+	margin: 5px 5px 2.5px 5px;
+	padding: 2px 3px 2px 3px;
+	border: 2px solid black;
+}
+
+ul.news, ul.top_mult {
+	list-style: none;
+	text-decoration: none;
+	cursor: help;
+}
+
+ul.top_mult li a {
+	cursor: help;
+	color: #000000;
+}
+
+.content {
+	text-align: left;
+	width: 930px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+.film_b, .sers_b, .joks_b {
+	margin-bottom: 30px;
+}
+
+.film_b img, .sers_b img, .joks_b img{
+	border: solid 1px #000000;
+}
+
+.posts_cont {
+	font-size: 17px;
+}
+
+.posts_cont a {
+	cursor: help;
+	color: #0000FF;
+}
+
+.posts_cont a:hover {
+	color: #79FF0A;
+}
+
+.yt_car {
+	margin: 10px 10px 10px 10px;
+}
+
+.content {
+	margin-left: 5px;
+}
+
+.lable {
+	font-size: 1.2em;
+}
+
+.value {
+	color: #140075;
+	font-size: 1em;
+	margin-right: 10px;
+}
+
+.desk_car {
+	margin-top: 10px;
+	width: 800px;
+	margin-bottom: 60px;
+}
+
+.desk_car img {
+	float: left;
+	margin-right: 10px;
+	border: solid 1px #000000;
+}
+
+.otziv {
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	margin: 10px 30px 10px 0; 
+}
+
+.otziv .ot_name {
+	background-color: #0000FF;
+	padding: 3px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 10px;
+}
+
+.otziv .ot_text {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #79FF0A;
+}
+
+.send {
+	margin-bottom: 5px;
+}
+
+.send input[type="text"], textarea {
+	border: double 1px black;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+
+.send input[type="text"] {
+	width: 96%;
+}
+
+.send textarea {
+	width: 96%;
+	height: 200px;
+}
+
+.send input[type="submit"] {
+	padding: 3px;
+	margin-top: 0;
+}
+
+.sovet1 {
+	margin-top: 5px;
+	width: 800px;
+	margin-bottom: 235px;
+}
+
+.sovet2 {
+	margin-top: 5px;
+	width: 800px;
+	margin-bottom: 255px;
+}
+
+.sovet3 {
+	margin-top: 5px;
+	width: 800px;
+	margin-bottom: 270px;
+}
+
+.sovet1 img, .sovet2 img, .sovet3 img  {
+	float: left;
+	margin-right: 10px;
+	border: solid 1px #000000;
+	margin-bottom: 10px;
+}
+
+.s_pics {
+	width: 1200px;
+}
+
+.s_pics img {
+	border: solid 1px #000000;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.m.pics {
+	margin-top: 5px;
+}
+
+.m_pics img {
+	margin: 2px 0 2px 0;
+	border: solid 1px black;
+}
+
+.porno1 {
+	margin-bottom: 10px;
+	background-color: #79ff0a;
+	padding: 5px;
+	height: 310px;
+	border: double 1px #5f5fec;
+}
+
+.porno1 img {
+	float: left;
+	margin-right: 8px;
+	border: solid 1px black;
+	margin-left: 5px;
+}
+
+.button {
+	clear: both;
+	float: right;
+	background-color: #5f5fec;
+	padding: 3px;
+	border: solid 1px black;
+	margin-bottom: 10px;
+	font-style: 0.8em;
+}
+
+.button a {
+	color: black;
+}
+
+.button a:hover {
+	color: #79ff0a;
+}
+
+.desk_porno1 {
+	margin-top: 10px;
+	width: 800px;
+	margin-bottom: 170px;
+}
+
+.desk_porno2 {
+	margin-top: 10px;
+	width: 800px;
+	margin-bottom: 170px;
+}
+
+.desk_porno3 {
+	margin-top: 10px;
+	width: 800px;
+	margin-bottom: 120px;
+}
+
+.desk_porno4 {
+	margin-top: 10px;
+	width: 800px;
+	margin-bottom: 130px;
+}
+
+.desk_porno5 {
+	margin-top: 10px;
+	width: 800px;
+	margin-bottom: 80px;
+}
+
+.desk_porno1 img, .desk_porno2 img, .desk_porno3 img, .desk_porno4 img, .desk_porno5 img {
+	float: left;
+	margin-right: 10px;
+	border: solid 1px #000000;
+}
+
+.auten_furry {
+	padding-left: 10px;
+}
+
+.judy {
+	padding-left: 20px;
+	border: solid 1px #000000;
+}
+
+.xen {
+	padding-top: 30px;
+	padding-left: 20px;
+	border: solid 1px #000000;
+	width: 800px;
+}
+
+.footer {
+	width: auto;
+	height: 80px;
+	padding: 28px 0 5px 0;
+	text-align: center;
+	background-color: #0000FF; 
+	color: #140075;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 900px;
+	
+}
+
+.footer a {
+	color: #FFFF00;
+	cursor: help;
+}
+
+.footer a:hover {
+	color: #79FF0A;
+}
+
+.footer p {
+	padding: 0 0 10px 0;
+}
+
+.dz img{
+	border: solid 1px #000000;
+	width: 551.1px;
+	height: 779.5px;
+}

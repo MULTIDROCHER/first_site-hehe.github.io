@@ -1,0 +1,57 @@
+.game {
+	width: 600px;
+	height: 200px;
+	border-bottom: 2px solid black;
+	margin: auto;
+}
+
+#snail {
+	width: 70px;
+	height: 70px;
+	background-image: url(img/snail.png);
+	background-size: 70px 70px;
+	position: relative;
+	top: 130px;
+}
+
+#barman {
+	width: 30px;
+	height: 50px;
+	background-image: url(img/barman.png);
+	background-size: 30px 50px;
+	position: relative;
+	top: 80px;
+	left: 550px;
+	animation: barmanMov 1s infinite linear;
+}
+
+@keyframes barmanMov {
+	0% {
+		left: 550px;
+	}
+	100% {
+		left: -20px;
+	}
+}
+
+.snailMov {
+	animation: snailMov 0.3s linear;
+}
+
+@keyframes snailMov {
+	0% {
+		top: 130px;
+	}
+	30% {
+		top: 60px;
+	}
+	50% {
+		top: 20px;
+	}
+	80% {
+		top: 60px;
+	}
+	100% {
+		top: 130px;
+	}
+}
